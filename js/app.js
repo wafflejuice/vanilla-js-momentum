@@ -18,7 +18,7 @@ function onLoginSubmit(event) {
 loginForm.addEventListener("submit", onLoginSubmit);
 
 function paintGreetings(username) {
-    greeting.innerText = `Hello ${savedUsername}`;
+    greeting.innerText = `Hello ${username}`;
     greeting.classList.remove(HIDDEN_CLASSNAME);
 }
 
